@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container pt-5">
+        <div class="row">
+            <h1 class="playground-heading col-12 text-center">Splice Playground</h1>
+            <div class="col-4 mt-4 mb-4">
+                <label class="input-label" for="startIndexInput">START INDEX</label>
+                <input type="text" class="user-input" id="startIndexInput" placeholder="1" />
+            </div>
+            <div class="col-4 mt-4 mb-4">
+                <label class="input-label" for="deleteCountInput">DELETE COUNT</label>
+                <input type="text" class="user-input" id="deleteCountInput" placeholder="0" />
+            </div>
+            <div class="col-4 mt-4 mb-4">
+                <label class="input-label" for="itemToAddInput">ITEM TO ADD</label>
+                <input type="text" class="user-input" id="itemToAddInput" placeholder="2" />
+            </div>
+            <div class="col-12 text-center mb-4">
+                <button class="btn btn-primary" id="spliceBtn">Splice</button>
+            </div>
+            <h1 class="col-12 updated-array-heading">Updated Array</h1>
+            <div class="col-12 updated-array-container">
+                <span class="updated-array" id="updatedArray"></span>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

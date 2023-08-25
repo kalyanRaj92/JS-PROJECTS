@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.main-container {
+    font-family: "Roboto";
+}
+
+.wiki-search-header {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d5cdcd;
+    padding-top: 25px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+
+.main-heading {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: "Times New Roman", Sans-Serif;
+    padding-right: 20px;
+}
+
+.wiki-logo {
+    margin-bottom: 30px;
+    width: 100px;
+}
+
+.search-input {
+    width: 100%;
+    background-color: #f1f1f1;
+    border-color: #e4e7eb;
+    border-radius: 5px;
+    padding: 10px;
+    border-width: 1px;
+    border-style: solid;
+    /*  border-color: #d5cdcd; */
+    font-size: 18px;
+}
+
+.search-results {
+    /*  width: 100%; */
+    padding-left: 20px;
+}
+
+.result-item {
+    margin-bottom: 20px;
+}
+
+.result-title {
+    font-size: 22px;
+}
+
+.link-description {
+    font-size: 15px;
+    color: #444444;
+}
+
+.result-url {
+    color: #006621;
+    text-decoration: none;
+}
+
+#pagination {
+    margin-top: 25px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.pagination-link {
+    padding: 5px;
+    margin: 2px;
+    border-radius: 2px;
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+.active {
+    background-color: brown;
+    color: white;
+}
+
+@media screen and (min-width: 768px) {
+    .main-heading {
+        font-family: "Times New Roman", "Roboto";
+        padding-right: 20px;
+    }
+
+    /* .search-results {
+       width: 60%;
+       margin-left: 125px; 
+    } */
+
+    /* .result-item {
+         width: 60%; 
+         margin-left: 100px; 
+    }  */
+
+    .search-input {
+        width: 80%;
+    }
+
+    #pagination {
+        margin-top: 35px;
+        margin-bottom: 10px;
+    }
+
+    .pagination-link {
+        width: 20px;
+        text-align: center;
+        padding: 8px 12px;
+        margin-right: 5px;
+        background-color: #dadada;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .active {
+        background-color: brown;
+        color: white;
+    }
+
+}
