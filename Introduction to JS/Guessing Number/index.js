@@ -34,7 +34,7 @@ function checkGuess() {
             gameResult.style.backgroundColor = "green";
             gameResult.style.borderRadius = "10px";
             msg1.textContent = "The Number was " + randomNumber;
-            msg2.textContent = " You guessd it in " + no_of_guesses + " Guesses.";
+            msg2.textContent = " You guessed it in " + no_of_guesses + " Guesses.";
         } else {
             gameResult.textContent = "Please provide a valid input.";
             gameResult.style.backgroundColor = "#1e217c";

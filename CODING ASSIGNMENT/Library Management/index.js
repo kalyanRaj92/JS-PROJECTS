@@ -8,22 +8,21 @@ function createAndAppendSearchResult(result) {
         author
     } = result;
 
-    let resultItemEl = document.createElement('div');
-    searchResultsEl.appendChild(resultItemEl);
+    let bookImage = document.createElement('img');
+    bookImage.src = imageLink;
+    searchResultsEl.appendChild(bookImage);
 
-    let imageEl = document.createElement('img');
-    imageEl.src = imageLink;
-    searchResultsEl.appendChild(imageEl);
+    let authorName = document.createElement("p");
+    authorName.textContent = author;
+    searchResultsEl.appendChild(authorName);
 
-    let descriptionEl = document.createElement("p");
-    descriptionEl.textContent = author;
-    searchResultsEl.appendChild(descriptionEl);
 }
 
 function displayResults(searchResults) {
     spinnerEl.classList.toggle('d-none');
 
     let headingEl = document.createElement('h1');
+    headingEl.classList.add("book-sheading");
     searchResultsEl.appendChild(headingEl);
 
     if (searchResults.length === 0) {

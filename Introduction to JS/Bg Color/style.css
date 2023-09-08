@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.color-picker-container {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    background-color: #ffffff;
+    height: 100vh;
+}
+
+.color-picker-heading {
+    font-family: "Open Sans";
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.button {
+    font-family: "Open Sans";
+    font-size: 14px;
+    width: 100px;
+    height: 100px;
+    border-width: 3px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    background-color: #e0e0e0;
+    font-weight: 600;
+}
+
+.selected-color-text {
+    background-color: #222222;
+    color: white;
+    font-family: "Open Sans";
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.color-picker-instruction {
+    font-family: "Open Sans";
+    font-size: 20px;
+}
+
+.selected-color-hex-code {
+    color: #49a6e9;
+}
+
+/* @media screen and (min-width:768px) {
+    .selected-color-text {
+          width: 70vw;
+    }
+} */
