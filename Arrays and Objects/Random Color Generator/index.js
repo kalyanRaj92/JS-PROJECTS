@@ -17,4 +17,7 @@ function onChangeBgColor() {
     let randomBgColor = bgColorsArray[randomBgColorIndex];
 
     bgContainerElement.style.backgroundColor = randomBgColor;
+    // let nameEl = document.createElement("P");
+    // nameEl.textContent = randomBgColor;
+    // bgContainerElement.appendChild(nameEl);
 }

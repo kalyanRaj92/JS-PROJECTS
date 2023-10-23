@@ -22,7 +22,7 @@ function displayResults(searchResults) {
     spinnerEl.classList.toggle('d-none');
 
     let headingEl = document.createElement('h1');
-    headingEl.classList.add("book-sheading");
+    headingEl.classList.add("booksheading");
     searchResultsEl.appendChild(headingEl);
 
     if (searchResults.length === 0) {
